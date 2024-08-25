@@ -17,3 +17,5 @@ Technologies Used
  - HTML5
  - CSS3
  - JavaScript
+
+You may watch the preview by clicking the following link: https://timdvd.github.io/clothing_ecom_landing/
