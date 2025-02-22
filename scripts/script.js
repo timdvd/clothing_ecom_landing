@@ -17,11 +17,13 @@ copyMenu();
 const menuButton = document.querySelector('.trigger'),
       closeButton = document.querySelector('.t-close'),
       addclass = document.querySelector('.site');
-menuButton.addEventListener('click', function(){
-  addclass.classList.toggle('showmenu');
+menuButton.addEventListener('click', function(e){
+  e.preventDefault();
+  addclass.classList.add('showmenu');
 });
-closeButton.addEventListener('click', function(){
-  addclass.classList.remove('showmenu')
+closeButton.addEventListener('click', function(e){
+  addclass.classList.remove('showmenu');
+  e.preventDefault();
 });
 
 
